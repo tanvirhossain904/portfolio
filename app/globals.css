@@ -1,10 +1,13 @@
 @import "tailwindcss";
+@config "../tailwind.config.mjs";
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
   :root {
     color-scheme: light;
   }
-  
+
   :root.dark {
     color-scheme: dark;
   }

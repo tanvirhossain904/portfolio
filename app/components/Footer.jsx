@@ -42,19 +42,19 @@ const Footer = () => {
                 className='text-center sm:flex items-center justify-between border-t border-gray-400 dark:border-gray-600 mx-[10%] mt-12 py-6 dark:text-gray-300'
                 variants={containerVariants}
             >
-                <motion.p variants={itemVariants}>@ 2026 Tanvir Hossain. All rights reserved.</motion.p>
-                <motion.ul 
+                <motion.p variants={itemVariants}>© 2026 Tanvir Hossain. All rights reserved.</motion.p>
+                <motion.ul
                     className='flex items-center gap-10 justify-center mt-4 sm:mt-0'
                     variants={containerVariants}
                 >
                     <motion.li variants={itemVariants} whileHover={{ y: -2 }}>
-                        <a target='_blank' href="https://github.com/tanvirhossain904">GitHub</a>
+                        <a target='_blank' rel='noopener noreferrer' href="https://github.com/tanvirhossain904">GitHub</a>
                     </motion.li>
                     <motion.li variants={itemVariants} whileHover={{ y: -2 }}>
-                        <a target='_blank' href="https://www.linkedin.com/in/tanvirwebdev/">LinkedIn</a>
+                        <a target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/tanvirwebdev/">LinkedIn</a>
                     </motion.li>
                     <motion.li variants={itemVariants} whileHover={{ y: -2 }}>
-                        <a target='_blank' href="https://github.com/tanvirhossain904">Facebook</a>
+                        <a target='_blank' rel='noopener noreferrer' href="#">Facebook</a>
                     </motion.li>
                 </motion.ul>
             </motion.div>

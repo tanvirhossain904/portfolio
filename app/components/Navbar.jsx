@@ -44,14 +44,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                 <Image src={assets.header_bg_color} alt="header background" className='w-full' />
             </div> */}
 
-            {/* Only render this image if we are NOT in dark mode */}
-{!isDarkMode && (
-    <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-        <Image src={assets.header_bg_color} alt="header background" className='w-full' />
-    </div>
-)}
+            <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden'>
+                <Image src={assets.header_bg_color} alt="header background" className='w-full' />
+            </div>
 
-            <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 dark:bg-darkTheme dark:text-white ${isScroll ? 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:shadow-white/20' : 'dark:shadow-sm'}`    }>
+            <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 dark:bg-darkTheme dark:text-white ${isScroll ? 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:bg-opacity-50 dark:shadow-white/20' : 'dark:shadow-sm'}`}>
                 <a href="#top">
                     <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='logo' className='w-28 cursor-pointer mr-14' />
                 </a>
@@ -81,7 +78,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
                 {/* - - - Mobile menu - - - */}
 
-                <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transistion duration-500 dark:bg-darkHover dark:text-white'>
+                <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:text-white'>
 
                     <div className='absolute top-6 right-6' onClick={closeMenu}>
                         <Image src={assets.close_black} alt='close menu' className='w-5 cursor-pointer dark:hidden' />

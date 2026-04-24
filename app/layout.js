@@ -1,7 +1,5 @@
 import { Outfit, Ovo } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
-import Navbar from "./components/Navbar";
 
 const outfit = Outfit({
   subsets: ["latin"], weight: ["400", "500", "600", "700"]
@@ -24,9 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
-        <template
+        <script
           id="theme-script"
-          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               try {

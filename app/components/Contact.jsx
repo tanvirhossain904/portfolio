@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <motion.div 
       id='contact' 
-      className='w-full px-[12%] py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length-90%_auto] dark:bg-none'
+      className='w-full px-[12%] py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
