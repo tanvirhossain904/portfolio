@@ -106,7 +106,7 @@ export const workData = [
         description: 'Real-time SEO diagnostic tool with automated audit algorithms, async API data fetching, and exportable performance reports.',
         bgImage: '/work-3.png',
         link: 'https://seo-analyzer-tool-gamma.vercel.app/',
-        github: 'https://github.com/tanvirhossain904/seo-analyzer-pro',
+        github: 'https://github.com/tanvirhossain904/SEO-Analyzer-Tool',
         tags: ['React', 'Node.js', 'Web APIs', 'Vercel']
     },
     {
