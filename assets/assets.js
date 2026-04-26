@@ -111,7 +111,7 @@ export const workData = [
     },
     {
         title: 'FitnessLume',
-        category: 'Marketing Site',
+        category: 'Blogging Site',
         year: '2024',
         description: 'High-performance content engine tuned for Core Web Vitals, on-page SEO, and sub-second TTFB via edge-cached delivery.',
         bgImage: '/work-1.png',
