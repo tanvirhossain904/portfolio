@@ -84,20 +84,20 @@ export const workData = [
         featured: true,
         description: 'MERN fitness-performance platform with JWT-secured authentication, role-based access, and complex data modeling for workout tracking.',
         bgImage: '/work-4.png',
-        link: 'https://apexlift-phi.vercel.app/',
+        link: 'https://apexlift-ten.vercel.app/',
         github: 'https://github.com/tanvirhossain904/apexlift',
         tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind']
     },
     {
-        title: 'EttsyBD',
-        category: 'E-commerce Platform',
+        title: 'Vibe',
+        category: 'Real-time chat app',
         year: '2025',
         featured: true,
-        description: 'Production e-commerce site with dynamic inventory management, checkout flow, and optimized queries for sub-second product loads.',
+        description: 'Real-time MERN messaging app with Socket.io presence indicators, image sharing via Cloudinary, unread tracking, and JWT-secured httpOnly cookie auth.',
         bgImage: '/work-2.png',
-        link: 'https://ettsybd.com',
-        github: 'https://github.com/tanvirhossain904/ettsybd',
-        tags: ['Next.js', 'PostgreSQL', 'REST API', 'Stripe']
+        link: 'https://vibe-mern-chat-app.vercel.app/',
+        github: 'https://github.com/tanvirhossain904/vibe-mern-chat-app',
+        tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 'Tailwind']
     },
     {
         title: 'SEO Analyzer Pro',
